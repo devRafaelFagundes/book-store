@@ -1,14 +1,14 @@
 const express = require('express')
-const {mostrarLivros, mostrarLivroPorId, updatePorId, createLivro, deletePorId} = require('../controllers/controller-books')
+const {createBook, showAllBooks, showBookById, updateById, deleteById} = require('../controllers/controller-books')
 
 
 const router = express.Router()
 
-router.get('/', mostrarLivros)
-router.get('/:id', mostrarLivroPorId)
-router.put('/update/:id', updatePorId)
-router.delete('/delete/:id', deletePorId)
-router.post('/submit', createLivro)
+router.get('/', showAllBooks)
+router.get('/:id', showBookById)
+router.put('/update/:id', updateById)
+router.delete('/delete/:id', deleteById)
+router.post('/submit', createBook)
 
 
 

@@ -12,7 +12,7 @@ app.use('/api/books', bookRouter)
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, ()=>{
-    console.log('o servidor está funcionando normalmente')
+    console.log('the server is successfully working...')
 })
 
 connectDb()

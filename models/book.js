@@ -3,21 +3,21 @@ const mongoose = require('mongoose')
 const bookSchema = new mongoose.Schema({
     title : {
         type : String,
-        required : [true, 'é obrigaório o título'],
+        required : [true, 'You need to inform the title.'],
         trim : true,
-        maxLength : [200, 'no máximo 200 caracteres'],
+        maxLength : [200, 'It needs to be lower than 200 characters'],
 
     },
     author : {
         type : String,
-        required : [true, 'é obrigaório o autor'],
+        required : [true, 'You need to inform the author.'],
         trim : true,        
     },
     year : {
         type : Number,
-        required : [true, 'Obrigatório fornecer o ano'],
-        min : [1000, 'Ano precisa ser depois de 1000'],
-        max : [new Date().getFullYear(), 'O ano não pode ser no futuro.']
+        required : [true, 'You need to inform the year.'],
+        min : [1000, 'The year needs to be above a 1000'],
+        max : [new Date().getFullYear(), 'The year can not be in the future']
     },
     createdAt : {
         type : Date,
