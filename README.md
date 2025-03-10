@@ -46,8 +46,11 @@ Endpoint: POST /api/books/submit
 ![Request and response creating a new book with postman](./images/api-books-submit.png)
 
 ### Delete a book
-
+Endpoint: DELETE /api/books/delete/:id
+![Request and response deleting a new book with postman](./images/api-book-delete-id.png)
 ### Update a book
+Endpoint: PUT /api/books/update/:id
+![Request and response deleting a new book with postman](./images/api-books-update-id.png)
 ### Want to contribute?
 
 made effortfully by [devRafaelFagundes](https://github.com/devRafaelFagundes)
