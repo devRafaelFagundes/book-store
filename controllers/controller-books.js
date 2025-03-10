@@ -15,6 +15,7 @@ const showAllBooks = async (req, res) => {
                 message : 'No books found'
             })
         }
+    // look if there is any book on the database, if the answer is true, then it shows them 
     } catch (e) {
         console.log(e)
     }
@@ -47,6 +48,8 @@ const updateById = async (req, res) => {
         const updatedBook = await Book.findByIdAndUpdate(req.params.id, formsInfo, {
             new : true
         })
+        //change a book (found by his id) data by the req.body informed by the user
+        //new : true; is for saving that update
         if (!updatedBook) {
             res.status(404).json({
                 success : false,
