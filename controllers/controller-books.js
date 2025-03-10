@@ -7,7 +7,7 @@ const showAllBooks = async (req, res) => {
         if (allBooks?.length > 0) {
             res.status(200).json({
                 success : true,
-                message : 'books was read successfully',
+                message : 'books were loaded successfully',
                 data : allBooks
             })
         } else {
