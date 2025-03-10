@@ -4,8 +4,8 @@
 
 ## Description
 
-The project **Book Store** is an REST API web application for managing online libraries, it was made using node, express, mongoDb, postman and nodemon for its development. It allows the user:
-* Navigate among the books
+The project **Book Store** is a REST API web application for managing online libraries, it was made using node, express, mongoDb, postman and nodemon for its development. It allows the user:
+* Navigate among book names
 * Look at a specific one by id
 * Create books
 * Delete books
@@ -29,7 +29,25 @@ The project **Book Store** is an REST API web application for managing online li
    ```
 ## How to test
 
-Even though you access data looking at the link "http://localhost:3000/api/books", you can't make any changes to the database, you need an **API TESTER** to do that, such as [**POSTMAN**](https://www.postman.com/). Simply create an account and a project, then you are finally ready for testing each route and messing with the database, speaking of routes, we can go now to the next topic 
+Even though you can access the data at the link "http://localhost:3000/api/books", you can't make any changes to the database, you need an **API TESTER** to do that, such as [**POSTMAN**](https://www.postman.com/). Simply create an account and a project, then you are finally ready for testing each route and messing with the database, speaking of routes, we can now go to the next topic. 
 
-## API Documentation
-   
+## API Routes
+
+### Show all books
+Endpoint: GET /api/books
+
+![Request and response showing the data using postman](./images/api-books.png)
+### Show specific book
+Endpoint: GET /api/books/:id
+![Request and response showing the book with requested id using postman](./images/api-books-id.png)
+
+### Create a new book
+Endpoint: POST /api/books/submit
+![Request and response creating a new book with postman](./images/api-books-submit.png)
+
+### Delete a book
+
+### Update a book
+### Want to contribute?
+
+made effortfully by [devRafaelFagundes](https://github.com/devRafaelFagundes)
