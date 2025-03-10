@@ -1,6 +1,6 @@
 # Book Store
 
-[Leia em português]()
+[Leia em português](README.pt-br.md)
 
 ## Description
 
