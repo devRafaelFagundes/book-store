@@ -33,6 +33,21 @@ Even though you can access the data at the link "http://localhost:3000/api/books
 
 ## API Routes
 
-### GET /api/books/
-Show all the books inserted in the database
-![Request and response showing the data using postman](./images/api-books)
+### Show all books
+Endpoint: GET /api/books
+
+![Request and response showing the data using postman](./images/api-books.png)
+### Show specific book
+Endpoint: GET /api/books/:id
+![Request and response showing the book with requested id using postman](./images/api-books-id.png)
+
+### Create a new book
+Endpoint: POST /api/books/submit
+![Request and response creating a new book with postman](./images/api-books-submit.png)
+
+### Delete a book
+
+### Update a book
+### Want to contribute?
+
+made effortfully by [devRafaelFagundes](https://github.com/devRafaelFagundes)
