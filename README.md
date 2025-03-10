@@ -54,4 +54,4 @@ Endpoint: PUT /api/books/update/:id
 ### Want to contribute?
 Since it is a small project, i do not expect a community whatsoever, but you can help me by giving improvement tips about my code, ideas or anything  you think it would be helpful!!
 
-made effortfully by [devRafaelFagundes](https://github.com/devRafaelFagundes)
+Made effortfully by [devRafaelFagundes](https://github.com/devRafaelFagundes)
