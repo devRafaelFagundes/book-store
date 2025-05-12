@@ -4,7 +4,7 @@
 
 ## Description
 
-The project **Book Store** is a REST API web application for managing online libraries, it was made using node, express, mongoDb, postman and nodemon for its development. It allows the user:
+The project **Book Store** is a REST API web application for managing online libraries, it was made using node, express, mongoDb and postman for its development. It allows the user:
 * Navigate among book names
 * Look at a specific one by id
 * Create books
